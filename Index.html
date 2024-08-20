@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyOwnSlider</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body class="body">
+    <section class="completed-projects">
+        <div class="completed-projects__container">
+            <ul id="city-list" class="nav">
+                <li>
+                    <button  class="completed-projects__button-top-nav completed-projects__button-top-nav--active">Rostov-on-Don, Admiral</button>
+                </li>
+                <li>
+                    <button class="completed-projects__button-top-nav">Sochi Thieves</button>
+                </li>
+                <li>
+                    <button class="completed-projects__button-top-nav ">Rostov-on-Don Patriotic</button>
+                </li>
+            </ul>
+        <div class="completed-projects__box">
+            <h2 class="completed-projects__title">
+                Completed <br>projects
+            </h2>
+            <p class="completed-projects__text">
+                Only a small part of the work performed by our company is presented on the site. For 14
+                years on
+                in the
+                construction <br>market we have made happy more than 1000 families
+            </p>
+        <dl class="completed-projects__dl">
+            <div>
+                <dt class="completed-projects__dt">City:</dt>
+                <dd id="city-name" class="completed-projects__dd">Rostov-on-Don LCD admiral</dd>
+            </div>
+
+            <div>
+                <dt class="completed-projects__dt">apartment area:</dt>
+                <dd id="area-value" class="completed-projects__dd">81 m2</dd>
+            </div>
+
+            <div>
+                <dt class="completed-projects__dt">Repair time:</dt>
+                <dd id="repair-time-value" class="completed-projects__dd">3.5 months</dd>
+            </div>
+
+            <div>
+                <dt class="completed-projects__dt">Repair Cost:</dt>
+                <dd id="cost-value" class="completed-projects__dd">Upon request</dd>
+            </div>
+        </dl>
+        <div class="completed-projects__nav">
+            <button id="back" class="completed-projects__button-nav" aria-label="back">
+                <img src="./pics/icon/icon_arrow-left.svg" alt="icon arrow to back project">
+            </button>
+            <div id="point-list" class="completed-projects__nav-points">
+                <button class="completed-projects__button-nav" aria-label="selected slide">
+                    <img src="./pics/icon/icon_point_active.svg" alt="icon_point_active">
+                </button>
+                <button class="completed-projects__button-nav" aria-label="next slide">
+                    <img src="./pics/icon/icon_point_no-active.svg" alt="icon_point_no-active">
+                </button>
+                <button class="completed-projects__button-nav" aria-label="next slide">
+                    <img src="./pics/icon/icon_point_no-active.svg" alt="icon_point_no-active">
+                </button>
+            </div>
+            <button id="forward" class="completed-projects__button-nav" aria-label="forward">
+                <img src="./pics/icon/icon_arrow-right.svg" alt="icon arrow to next project">
+            </button>
+        </div>
+        <div class="completed-projects__img-box">
+            <picture class="completed-projects__slide">
+                <img id="slide-img-desktop" src="./pics/Photo1.png" alt="interior at the window of the Аdmiral project">
+            </picture>
+        </div>
+    
+        </div>
+        </div>
+    </section>
+    <script src="./JS/main.js"></script>
+    
+</body>
+</html>
